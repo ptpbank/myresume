@@ -1,0 +1,35 @@
+html {
+  background-color: #00bcf1;
+  background-image: linear-gradient(to bottom right, #00bcf1, #180CAC);
+  font-family: "Work sans", sans-serif;
+}
+
+.job,
+.button {
+  font-family: "Lato", "Work sans", sans-serif;
+}
+
+.wallpaper {
+  background-image: url("../images/chicago.jpg");
+}
+
+.job {
+  color: #cbffdc;
+}
+
+.hr {
+  background-color: #00bcf1;
+}
+
+.button {
+  background-color: #303884;
+  color: #cbffdc;
+}
+
+.social a {
+  color: #cbffdc;
+}
+
+.social a:hover {
+  color: #fff;
+}

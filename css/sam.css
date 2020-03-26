@@ -1,0 +1,32 @@
+html {
+  background-color: #ff470f;
+  background-image: linear-gradient(to bottom right, #ff470f, #ac0c7e);
+  font-family: "Playfair Display", serif;
+}
+
+.job,
+.button {
+  font-family: "Lora", serif;
+  font-size: 1rem;
+  font-style: italic;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.wallpaper {
+  background-image: url("../images/london.jpg");
+}
+
+.name {
+  font-weight: 700;
+}
+
+.hr {
+  background-color: rgba(172, 12, 126, 0.5);
+}
+
+.button {
+  background-color: #ffdb97;
+  border-radius: 5px;
+  color: #ac0c7e;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Oliver Hugues – Photographer</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="css/minireset.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/oliver.css">
+    <script defer type="text/javascript" src="js/main.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+  </head>
+  <body>
+    <div id="wallpaper" class="wallpaper" data-image="images/water.jpg"></div>
+    <div class="content">
+      <aside class="side">
+        <figure id="picture" class="picture">
+          <div class="picture-shadow"></div>
+          <img id="pictureImage" class="picture-image"
+               src="images/oliver.jpg"
+               srcset="images/oliver.jpg 1x,
+                       images/oliver@2x.jpg 2x,
+                       images/oliver@3x.jpg 3x"
+               alt="Portrait of Oliver Hugues"
+               width="320"
+               height="320">
+        </figure>
+      </aside>
+      <main class="about">
+        <h1 class="name">
+          Oliver Hugues
+        </h1>
+        <p class="job">
+          Photographer
+        </p>
+        <hr class="hr">
+        <div class="description">
+          <p>
+            Through my lens, I capture the world the way I see it, in all its beauty and imperfections.
+          </p>
+        </div>
+        <div class="contact">
+          <a class="button">
+            Contact me
+          </a>
+        </div>
+        <ul class="social">
+          <li>
+            <a>
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a>
+              <i class="fab fa-flickr"></i>
+            </a>
+          </li>
+          <li>
+            <a>
+              <i class="fab fa-facebook-square"></i>
+            </a>
+          </li>
+        </ul>
+      </main>
+    </div>
+    <noscript>
+      <style type="text/css">
+        .wallpaper {
+          animation-name: zoomOut;
+        }
+
+        .picture {
+          animation-name: dropIn;
+        }
+      </style>
+    </noscript>
+  </body>
+</html>

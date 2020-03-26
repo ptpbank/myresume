@@ -1,0 +1,41 @@
+html {
+  background-color: #1cac0c;
+  background-image: linear-gradient(to bottom right, #1cac0c, #80ff87);
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.job,
+.button {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.wallpaper {
+  background-image: url("../images/water.jpg");
+}
+
+.name {
+  font-weight: 700;
+}
+
+.job {
+  color: #f5ff80;
+  font-size: 1.25rem;
+}
+
+.hr {
+  background-color: #80ff87;
+}
+
+.button {
+  background-color: #80ff87;
+  border-radius: 25px 0px;
+  color: #1cac0c;
+}
+
+.social a {
+  color: #f5ff80;
+  opacity: 1;
+}
